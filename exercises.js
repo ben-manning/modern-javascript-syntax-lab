@@ -18,5 +18,18 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 // Your code here
 const [pineapple, olives] = pizzaToppings;
 
-console.log(pineapple);
-console.log(olives);
+// console.log(pineapple);
+// console.log(olives);
+
+// Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
+
+const car = {
+  make: 'Audi',
+  model: 'q5',
+};
+
+// Your code here
+const { make, model } = car;
+
+console.log(make);
+console.log(model);
