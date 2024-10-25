@@ -13,10 +13,10 @@ const multiples = nums.map((num) => {
 
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
-const [pineapple, olives] = pizzaToppings;
+// const [pineapple, olives] = pizzaToppings;
 
 // console.log(pineapple);
 // console.log(olives);
@@ -31,5 +31,14 @@ const car = {
 // Your code here
 const { make, model } = car;
 
-console.log(make);
-console.log(model);
+// console.log(make);
+// console.log(model);
+
+// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here
+const controversialPizzaToppings = [...pizzaToppings]
+
+console.log(controversialPizzaToppings);
