@@ -9,5 +9,14 @@ const multiples = nums.map((num) => {
   return num * 2;
 });
 
-console.log(multiples);
+// console.log(multiples);
 
+// Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here
+const [pineapple, olives] = pizzaToppings;
+
+console.log(pineapple);
+console.log(olives);
