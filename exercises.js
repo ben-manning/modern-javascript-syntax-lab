@@ -61,3 +61,16 @@ const car = {
 
 // console.log('this is the original car object:', car);
 // console.log('this is the updated myCar object:', myCar);
+
+
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+// Your code here
+// const userProfile = {};
+// let propertyName = 'username';
+
+// userProfile[propertyName] = 'pookymane';
+
+// console.log('This is the userProfile object:', userProfile);
