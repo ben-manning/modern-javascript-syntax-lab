@@ -23,13 +23,13 @@ const multiples = nums.map((num) => {
 
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
-const car = {
-  make: 'Audi',
-  model: 'q5',
-};
+// const car = {
+//   make: 'Audi',
+//   model: 'q5',
+// };
 
 // Your code here
-const { make, model } = car;
+// const { make, model } = car;
 
 // console.log(make);
 // console.log(model);
@@ -41,4 +41,23 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 // Your code here
 const controversialPizzaToppings = [...pizzaToppings]
 
-console.log(controversialPizzaToppings);
+// console.log(controversialPizzaToppings);
+
+// Duplicate the following object and spread its values into a new variable `myCar`.
+
+const car = {
+  make: 'Audi',
+  model: 'q5',
+};
+
+// Change the `model` property of `myCar` to 'q7'. Log both objects.
+
+// Your code here
+// const myCar = { ...car };
+
+// console.log('this is the original version of myCar:', myCar);
+
+// myCar.model = 'q7';
+
+// console.log('this is the original car object:', car);
+// console.log('this is the updated myCar object:', myCar);
